@@ -1,4 +1,4 @@
-using Gtk.ShortNames
+using Gtk.ShortNames, InspectDR
 
 function init()
     inspectdr()
