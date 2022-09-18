@@ -21,4 +21,40 @@ Pkg.instantiate()
 include("src/plot.jl")
 ```
 
+## Creating a system image
+To reduce the startup time it is possible to create a system image. This can be done using the following steps
+```bash
+cd Plotting
+cd bin
+./install
+cd ..
+asysimg --project
+```
+On the julia prompt now execute:
+```julia
+@time include("src/plot.jl")
+```
+and close the plotting window.
+
+Now quit Julia with:
+```julia
+exit()
+```
+You get the question: "... Do you want to build one?"  
+Answer with "Yes" by just pressing \<ENTER\>.
+
+This will take a few minutes.
+
+If you now start Julia again with the command:
+```bash
+asysimg --project
+```
+and execute on the Julia prompt:
+```julia
+@time include("src/plot.jl")
+```
+you will see that it goes much faster.
+
+On my computer it needed 15.6s without system image and 7.3s with system image.
+
 Tested on Ubuntu.
