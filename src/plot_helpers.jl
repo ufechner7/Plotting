@@ -8,7 +8,7 @@ end
 
 function help()
     println("To zoom, draw a rectangle while keeping the right mouse key pressed!")
-    println("To go back to see the full graph, press <CRTRL><f>")
+    println("To go back to see the full graph, press <CTRL><f>")
 end
 
 function plot(params...; keywords...)
