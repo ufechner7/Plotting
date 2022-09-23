@@ -15,19 +15,18 @@ Run from the julia prompt:
 ```julia
 using Pkg
 Pkg.instantiate()
+using AutoSysimages
+install()
 ```
 ## Executing the example
 ```julia
-include("src/plot.jl")
+@time include("src/plot.jl")
 ```
 
 ## Creating a system image
 To reduce the startup time it is possible to create a system image. This can be done using the following steps
 ```bash
 cd Plotting
-cd bin
-./install
-cd ..
 asysimg --project
 ```
 On the julia prompt now execute:
