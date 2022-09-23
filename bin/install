@@ -1,5 +1,0 @@
-#!/bin/bash
-cp asysimg ~/.local/bin/asysimg
-chmod +x ~/.local/bin/asysimg
-
-julia -e "using Pkg; Pkg.add(\"AutoSysimages\")"
