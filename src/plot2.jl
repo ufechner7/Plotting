@@ -11,8 +11,8 @@ x  = 0:0.01:100
 y1 = sin.(x)
 y2 = cos.(x)
 
-p = plot(x, y1, label="sin", legend=true)
-plot!(x, y2, label="cos", legend=true, color=:red)
+p = plot(x, y1, label="sin")
+plot!(x, y2, label="cos", color=:red)
 sleep(0.1)
 InspectDR.tracedialog_show(p)
 println("You must close the trace dialog before you can zoom!")
