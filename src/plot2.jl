@@ -9,7 +9,7 @@ help()
 
 x  = 0:0.01:100
 y1 = sin.(x)
-y2 = cos.(x)
+y2 = 0.5 * cos.(x)
 
 p = plot(x, y1, label="sin")
 plot!(x, y2, label="cos", color=:red)
