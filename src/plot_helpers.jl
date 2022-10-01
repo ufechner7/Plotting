@@ -16,6 +16,12 @@ function plot(params...; keywords...)
     pIDR = display(p)            # Display with InspectDR and keep plot object
     resize!(pIDR.wnd, 1200, 700) # Resize GTK window directly
     G_.keep_above(pIDR.wnd, true)
+    p
+end
+
+function plot!(params...; keywords...)
+    Plots.plot!(params...; keywords...)
+    nothing
 end
 
 init()

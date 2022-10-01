@@ -8,6 +8,8 @@ help()
 
 x  = 0:0.01:100
 y1 = sin.(x)
+y2 = cos.(x)
 
-p1 = plot(x, y1, legend=false)
+plot(x, y1, legend=false)
+plot!(x, y2, legend=false, color=:red)
 nothing
