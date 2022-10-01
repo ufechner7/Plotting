@@ -23,6 +23,11 @@ install()
 @time include("src/plot.jl")
 ```
 
+## Additional examples:
+The script **plot2.jl** provides an example to plot two signals in one windows, the example **two_plots.jl** shows how to plot two signals in two windows.
+
+---
+
 ## Creating a system image
 To reduce the startup time it is possible to create a system image. This can be done using the following steps
 ```bash

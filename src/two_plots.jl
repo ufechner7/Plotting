@@ -1,4 +1,4 @@
-# example for using plotting in Julia
+# example for using plotting in Julia with two windows
 using Plots
 
 include("plot_helpers.jl")
