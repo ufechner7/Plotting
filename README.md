@@ -59,6 +59,6 @@ and execute on the Julia prompt:
 ```
 you will see that it goes much faster.
 
-On my computer it needed 15.6s without system image and 7.3s with system image.
+On my computer it needed 14.6s without system image and 5.7s with system image.
 
 Tested on Ubuntu.
