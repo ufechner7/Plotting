@@ -13,6 +13,7 @@ y2 = 0.5 * cos.(x)
 
 p = plot(x, y1, label="sin")
 plot!(x, y2, label="cos", color=:red)
+
 sleep(0.1)
 InspectDR.tracedialog_show(p)
 println("You must close the trace dialog before you can zoom!")
