@@ -13,3 +13,5 @@ y2 = cos.(x)
 plot(x, y1, legend=false)
 plot(x, y2, legend=false, color=:red)
 nothing
+
+plot(p1, p2, p3, p4, p5, p6, layout=(6,1), top_margin=ma, size = (width, height), legend = false)

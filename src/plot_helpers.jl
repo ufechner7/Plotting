@@ -19,6 +19,10 @@ function plot(params...; keywords...)
     pIDR
 end
 
+function subplot(params...; keywords...)
+    Plots.plot(params...; keywords...)
+end
+
 function plot!(params...; keywords...)
     Plots.plot!(params...; keywords...)
     nothing
