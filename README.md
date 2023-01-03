@@ -20,11 +20,17 @@ Pkg.instantiate()
 ```
 ## Executing the examples
 ```julia
-@time include("src/plot.jl")
+@time @eval include("src/plot.jl")
 ```
 
 ## Additional examples:
 The script **plot2.jl** provides an example to plot two signals in one windows, the example **two_plots.jl** shows how to plot two signals in two windows.
+
+## Performance
+```
+Julia 1.8.4:     15.3s 15.5s  
+Julia 1.9-beta2:  9.6s 9.63s
+```
 
 ---
 
