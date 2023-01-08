@@ -25,7 +25,8 @@ Pkg.instantiate()
 ```
 
 ## Additional examples:
-The script **plot2.jl** provides an example to plot two signals in one windows, the example **two_plots.jl** shows how to plot two signals in two windows.
+The script **plot2.jl** provides an example to plot two signals in one windows,  
+the example **two_plots.jl** shows how to plot two signals in two windows.
 
 ## Time to first plot (TTFP)
 ```
