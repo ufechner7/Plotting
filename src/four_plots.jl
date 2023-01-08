@@ -2,7 +2,7 @@
 using Plots, Plots.PlotMeasures, Gtk.ShortNames, InspectDR
 
 function init()
-    inspectdr()
+    # inspectdr()
     InspectDR.defaults.xaxiscontrol_visible = false
     default(width=1, xtickfontsize=12, ytickfontsize=12, legendfontsize=12)
 end
