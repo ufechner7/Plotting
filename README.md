@@ -11,6 +11,7 @@ cd Plotting
 ```
 4. run from bash
 ```bash
+./bin/precompile
 julia --project
 ```
 Run from the julia prompt:
@@ -30,7 +31,7 @@ The script **plot2.jl** provides an example to plot two signals in one windows, 
 ```
 Julia 1.8.4:     15.3s 15.5s  
 Julia 1.9-beta2:  9.6s 9.63s
-UbuntuZFS:       10.7s
+UbuntuZFS:       6s
 ```
 
 ---

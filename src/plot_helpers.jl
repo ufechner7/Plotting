@@ -1,7 +1,7 @@
 using Gtk.ShortNames, InspectDR
 
 function init()
-    inspectdr()
+    # inspectdr()
     InspectDR.defaults.xaxiscontrol_visible = false
     default(width=2, xtickfontsize=12, ytickfontsize=12, legendfontsize=12)
 end
