@@ -1,5 +1,5 @@
 # basic example for using plotting in Julia
-using Plots
+import Plots
 
 include("plot_helpers.jl")
 
