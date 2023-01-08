@@ -27,11 +27,10 @@ Pkg.instantiate()
 ## Additional examples:
 The script **plot2.jl** provides an example to plot two signals in one windows, the example **two_plots.jl** shows how to plot two signals in two windows.
 
-## Performance
+## Time to first plot (TTFP)
 ```
 Julia 1.8.4:     12.1s 12.1s  
 Julia 1.9-beta2:  5.2s  5.4s
-UbuntuZFS:       6s
 ```
 On Ubuntu 20.04, i7 7700k CPU
 
