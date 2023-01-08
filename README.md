@@ -29,8 +29,8 @@ The script **plot2.jl** provides an example to plot two signals in one windows, 
 
 ## Performance
 ```
-Julia 1.8.4:     15.3s 15.5s  
-Julia 1.9-beta2:  9.6s 9.63s
+Julia 1.8.4:     12.1s 12.1s  
+Julia 1.9-beta2:  5.2s  5.4s
 UbuntuZFS:       6s
 ```
 
