@@ -1,3 +1,9 @@
+#!/bin/bash
+
+if [[ $(basename $(pwd)) == "bin" ]]; then
+    cd ..
+fi
+
 export GTK_PATH=/usr/lib/x86_64-linux-gnu/gtk-3.0
 JULIA_PKG_PRECOMPILE_AUTO=0 julia --project -e 'import Plots; Plots.set_default_backend!(:inspectdr)'
-
+julia --project -e 'using Pkg; Pkg.precompile()'
